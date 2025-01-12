@@ -1,0 +1,302 @@
+[
+  {
+    "Team": "Utah Jazz",
+    "PowerRating": 100.0,
+    "ORtg": 117.6,
+    "DRtg": 108.3,
+    "MOV": 9.25,
+    "SRS": 8.97,
+    "OffensiveRating": 95.27,
+    "DefensiveRating": 88.12
+  },
+  {
+    "Team": "Los Angeles Clippers",
+    "PowerRating": 92.53,
+    "ORtg": 117.6,
+    "DRtg": 111.2,
+    "MOV": 6.18,
+    "SRS": 6.02,
+    "OffensiveRating": 95.27,
+    "DefensiveRating": 59.41
+  },
+  {
+    "Team": "Phoenix Suns",
+    "PowerRating": 91.58,
+    "ORtg": 117.2,
+    "DRtg": 111.3,
+    "MOV": 5.82,
+    "SRS": 5.67,
+    "OffensiveRating": 92.57,
+    "DefensiveRating": 58.42
+  },
+  {
+    "Team": "Milwaukee Bucks",
+    "PowerRating": 91.34,
+    "ORtg": 117.2,
+    "DRtg": 111.4,
+    "MOV": 5.89,
+    "SRS": 5.57,
+    "OffensiveRating": 92.57,
+    "DefensiveRating": 57.43
+  },
+  {
+    "Team": "Philadelphia 76ers",
+    "PowerRating": 90.61,
+    "ORtg": 113.2,
+    "DRtg": 107.6,
+    "MOV": 5.58,
+    "SRS": 5.28,
+    "OffensiveRating": 65.54,
+    "DefensiveRating": 95.05
+  },
+  {
+    "Team": "Denver Nuggets",
+    "PowerRating": 89.28,
+    "ORtg": 117.1,
+    "DRtg": 112.1,
+    "MOV": 4.93,
+    "SRS": 4.82,
+    "OffensiveRating": 91.89,
+    "DefensiveRating": 50.5
+  },
+  {
+    "Team": "Brooklyn Nets",
+    "PowerRating": 88.0,
+    "ORtg": 118.3,
+    "DRtg": 113.8,
+    "MOV": 4.5,
+    "SRS": 4.24,
+    "OffensiveRating": 100.0,
+    "DefensiveRating": 33.66
+  },
+  {
+    "Team": "Los Angeles Lakers",
+    "PowerRating": 83.71,
+    "ORtg": 109.9,
+    "DRtg": 107.1,
+    "MOV": 2.79,
+    "SRS": 2.77,
+    "OffensiveRating": 43.24,
+    "DefensiveRating": 100.0
+  },
+  {
+    "Team": "Dallas Mavericks",
+    "PowerRating": 82.61,
+    "ORtg": 115.4,
+    "DRtg": 113.0,
+    "MOV": 2.26,
+    "SRS": 2.26,
+    "OffensiveRating": 80.41,
+    "DefensiveRating": 41.58
+  },
+  {
+    "Team": "Atlanta Hawks",
+    "PowerRating": 82.54,
+    "ORtg": 115.7,
+    "DRtg": 113.3,
+    "MOV": 2.32,
+    "SRS": 2.14,
+    "OffensiveRating": 82.43,
+    "DefensiveRating": 38.61
+  },
+  {
+    "Team": "New York Knicks",
+    "PowerRating": 82.47,
+    "ORtg": 110.6,
+    "DRtg": 108.2,
+    "MOV": 2.31,
+    "SRS": 2.13,
+    "OffensiveRating": 47.97,
+    "DefensiveRating": 89.11
+  },
+  {
+    "Team": "Portland Trail Blazers",
+    "PowerRating": 81.3,
+    "ORtg": 117.8,
+    "DRtg": 116.0,
+    "MOV": 1.79,
+    "SRS": 1.81,
+    "OffensiveRating": 96.62,
+    "DefensiveRating": 11.88
+  },
+  {
+    "Team": "Boston Celtics",
+    "PowerRating": 80.29,
+    "ORtg": 114.0,
+    "DRtg": 112.5,
+    "MOV": 1.46,
+    "SRS": 1.32,
+    "OffensiveRating": 70.95,
+    "DefensiveRating": 46.53
+  },
+  {
+    "Team": "Memphis Grizzlies",
+    "PowerRating": 79.38,
+    "ORtg": 112.0,
+    "DRtg": 111.0,
+    "MOV": 1.03,
+    "SRS": 1.07,
+    "OffensiveRating": 57.43,
+    "DefensiveRating": 61.39
+  },
+  {
+    "Team": "Golden State Warriors",
+    "PowerRating": 79.36,
+    "ORtg": 111.1,
+    "DRtg": 110.1,
+    "MOV": 1.06,
+    "SRS": 1.1,
+    "OffensiveRating": 51.35,
+    "DefensiveRating": 70.3
+  },
+  {
+    "Team": "Miami Heat",
+    "PowerRating": 76.68,
+    "ORtg": 111.2,
+    "DRtg": 111.2,
+    "MOV": 0.03,
+    "SRS": -0.06,
+    "OffensiveRating": 52.03,
+    "DefensiveRating": 59.41
+  },
+  {
+    "Team": "Indiana Pacers",
+    "PowerRating": 76.64,
+    "ORtg": 112.4,
+    "DRtg": 112.4,
+    "MOV": -0.04,
+    "SRS": -0.13,
+    "OffensiveRating": 60.14,
+    "DefensiveRating": 47.52
+  },
+  {
+    "Team": "New Orleans Pelicans",
+    "PowerRating": 75.99,
+    "ORtg": 113.5,
+    "DRtg": 113.8,
+    "MOV": -0.29,
+    "SRS": -0.2,
+    "OffensiveRating": 67.57,
+    "DefensiveRating": 33.66
+  },
+  {
+    "Team": "Toronto Raptors",
+    "PowerRating": 75.41,
+    "ORtg": 112.0,
+    "DRtg": 112.5,
+    "MOV": -0.47,
+    "SRS": -0.54,
+    "OffensiveRating": 57.43,
+    "DefensiveRating": 46.53
+  },
+  {
+    "Team": "Chicago Bulls",
+    "PowerRating": 74.36,
+    "ORtg": 111.1,
+    "DRtg": 112.0,
+    "MOV": -0.89,
+    "SRS": -0.94,
+    "OffensiveRating": 51.35,
+    "DefensiveRating": 51.49
+  },
+  {
+    "Team": "San Antonio Spurs",
+    "PowerRating": 72.43,
+    "ORtg": 111.0,
+    "DRtg": 112.8,
+    "MOV": -1.74,
+    "SRS": -1.58,
+    "OffensiveRating": 50.68,
+    "DefensiveRating": 43.56
+  },
+  {
+    "Team": "Washington Wizards",
+    "PowerRating": 72.04,
+    "ORtg": 111.2,
+    "DRtg": 113.0,
+    "MOV": -1.83,
+    "SRS": -1.85,
+    "OffensiveRating": 52.03,
+    "DefensiveRating": 41.58
+  },
+  {
+    "Team": "Charlotte Hornets",
+    "PowerRating": 71.8,
+    "ORtg": 110.9,
+    "DRtg": 112.8,
+    "MOV": -1.93,
+    "SRS": -1.94,
+    "OffensiveRating": 50.0,
+    "DefensiveRating": 43.56
+  },
+  {
+    "Team": "Sacramento Kings",
+    "PowerRating": 67.62,
+    "ORtg": 113.6,
+    "DRtg": 117.2,
+    "MOV": -3.68,
+    "SRS": -3.45,
+    "OffensiveRating": 68.24,
+    "DefensiveRating": 0.0
+  },
+  {
+    "Team": "Detroit Pistons",
+    "PowerRating": 65.29,
+    "ORtg": 108.0,
+    "DRtg": 112.5,
+    "MOV": -4.47,
+    "SRS": -4.38,
+    "OffensiveRating": 30.41,
+    "DefensiveRating": 46.53
+  },
+  {
+    "Team": "Minnesota Timberwolves",
+    "PowerRating": 62.83,
+    "ORtg": 109.5,
+    "DRtg": 115.0,
+    "MOV": -5.56,
+    "SRS": -5.25,
+    "OffensiveRating": 40.54,
+    "DefensiveRating": 21.78
+  },
+  {
+    "Team": "Houston Rockets",
+    "PowerRating": 56.93,
+    "ORtg": 107.1,
+    "DRtg": 114.9,
+    "MOV": -7.9,
+    "SRS": -7.5,
+    "OffensiveRating": 24.32,
+    "DefensiveRating": 22.77
+  },
+  {
+    "Team": "Cleveland Cavaliers",
+    "PowerRating": 55.14,
+    "ORtg": 105.8,
+    "DRtg": 114.4,
+    "MOV": -8.44,
+    "SRS": -8.19,
+    "OffensiveRating": 15.54,
+    "DefensiveRating": 27.72
+  },
+  {
+    "Team": "Orlando Magic",
+    "PowerRating": 53.09,
+    "ORtg": 105.1,
+    "DRtg": 114.5,
+    "MOV": -9.31,
+    "SRS": -9.02,
+    "OffensiveRating": 10.81,
+    "DefensiveRating": 26.73
+  },
+  {
+    "Team": "Oklahoma City Thunder",
+    "PowerRating": 50.0,
+    "ORtg": 103.5,
+    "DRtg": 114.0,
+    "MOV": -10.64,
+    "SRS": -10.13,
+    "OffensiveRating": 0.0,
+    "DefensiveRating": 31.68
+  }
+]

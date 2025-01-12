@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IF: 湖人王朝的延续</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">
+                <img src="{{ url_for('static', filename='images/lakers-logo.png') }}" alt="Lakers Logo" class="nav-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chapter-one">第一章</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chapter-two">第二章</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chapter-three">第三章</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 开场部分 -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg">
+            <img src="{{ url_for('static', filename='images/nba-logo.png') }}" alt="NBA Background">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-in">IF: 湖人王朝的延续</h1>
+            <p class="subtitle fade-in">如果2020年的总冠军阵容继续前行...</p>
+            <button class="explore-btn fade-in" onclick="scrollToChapterOne()">开始探索</button>
+        </div>
+    </section>
+
+    <!-- 第一章：紫金王座 -->
+    <section id="chapter-one" class="chapter-one">
+        <div class="container position-relative">
+            <!-- 冠军标题注释 -->
+            <div class="story-note top fade-in" data-note="title">
+                <h4>王朝的开始</h4>
+                <p>2020年，洛杉矶湖人队在泡泡赛中战胜迈阿密热火，时隔十年再次夺得NBA总冠军。这支球队展现出了强大的统治力，他们期待着能够延续这份荣耀。</p>
+            </div>
+
+            <h2 class="fade-in">第一章：紫金王座</h2>
+
+            <!-- 冠军照片部分 -->
+            <div class="championship-container fade-in">
+                <img src="{{ url_for('static', filename='images/championship.jpg') }}" alt="Championship" class="championship-photo">
+                <div class="photo-overlay">
+                    <h3>2020 NBA 总冠军</h3>
+                </div>
+            </div>
+
+            <!-- 数据分析部分 -->
+            <div class="analysis-section mt-5">
+                <!-- 球队实力评级 -->
+                <div class="row fade-in mb-5">
+                    <div class="col-12 position-relative">
+                        <div class="story-note side-right fade-in" data-note="power-rating">
+                            <h4>联盟顶尖战力</h4>
+                            <p>2019-20赛季，湖人队展现出了冠军级别的统治力。从整体战力评级来看，他们与雄鹿队并列联盟第一，展现出冠军球队应有的实力。</p>
+                        </div>
+                        <div class="stats-card">
+                            <h4>球队实力评级</h4>
+                            <div id="powerRatingChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 进攻防守效率 & 雷达图 -->
+                <div class="row fade-in mb-5">
+                    <div class="col-md-6 position-relative">
+                        <div class="story-note side-left fade-in" data-note="efficiency">
+                            <h4>进攻防守的完美平衡</h4>
+                            <p>湖人队在进攻端和防守端都展现出极高的效率，特别是在防守端，他们的防守评级位居联盟前列，这也是他们能够夺冠的关键因素。</p>
+                        </div>
+                        <div class="stats-card">
+                            <h4>进攻-防守效率分布</h4>
+                            <div id="efficiencyChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 position-relative">
+                        <div class="story-note side-right fade-in" data-note="comprehensive">
+                            <h4>全面的冠军球队</h4>
+                            <p>从雷达图可以直观地看出，湖人队在各项核心数据上都达到了极高的水准，展现出极强的整体性和均衡性。</p>
+                        </div>
+                        <div class="stats-card">
+                            <h4>湖人队综合数据</h4>
+                            <div id="lakersRadarChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 球队核心数据 -->
+                <div class="row fade-in mb-5">
+                    <div class="col-12 position-relative">
+                        <div class="story-note side-left fade-in" data-note="core-stats">
+                            <h4>数据背后的统治力</h4>
+                            <p>核心数据展现了湖人队在各个方面的优势，从得分到防守，都体现出了冠军球队的统治力。</p>
+                        </div>
+                        <div class="stats-card">
+                            <h4>球队核心数据</h4>
+                            <div id="teamStatsChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 联盟战绩排名控制和图表 -->
+                <div class="row fade-in mb-5">
+                    <div class="col-12 position-relative">
+                        <div class="controls-container mb-3">
+                            <div class="btn-group">
+                                <button class="btn btn-outline-primary active" data-sort="rank">排名</button>
+                                <button class="btn btn-outline-primary" data-sort="winPct">胜率</button>
+                                <button class="btn btn-outline-primary" data-sort="wins">胜场</button>
+                                <button class="btn btn-outline-primary" data-sort="losses">负场</button>
+                            </div>
+                        </div>
+                        <div class="story-note side-right fade-in" data-note="standings">
+                            <h4>联盟顶级战绩</h4>
+                            <p>湖人队在常规赛中保持着联盟顶级水准，无论是胜率还是净胜分都展现出了冠军相。</p>
+                        </div>
+                        <div class="stats-card">
+                            <h4>联盟战绩排名</h4>
+                            <div id="leagueStandingsChart" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 季后赛对阵图 -->
+                <div class="row fade-in">
+                    <div class="col-12 position-relative">
+                        <div class="story-note side-left fade-in" data-note="playoff">
+                            <h4>总冠军之路</h4>
+                            <p>季后赛中，湖人队一路过关斩将，展现出了真正的冠军实力。从首轮到总决赛，每一步都走得无比坚定。</p>
+                        </div>
+                        <div class="stats-card">
+                            <h4>19-20赛季季后赛征程</h4>
+                            <div class="playoff-container">
+                                <img src="static/images/1920_playoff.png" alt="19-20赛季季后赛对阵图" class="playoff-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第二章：王朝的延续 -->
+    <section id="chapter-two" class="chapter-two">
+        <div class="container">
+            <div class="chapter-header">
+                <h2 class="chapter-title fade-in">第二章：王朝的延续</h2>
+                <!-- 章节介绍注释 -->
+                <div class="story-note center fade-in" data-note="chapter-two-intro">
+                    <h4>卫冕征程的假设</h4>
+                    <p>让我们通过数据模拟，探索如果这支冠军阵容继续前行，会创造怎样的传奇。</p>
+                </div>
+            </div>
+
+            <!-- 卫冕之路标题图片 -->
+            <div class="championship-container fade-in">
+                <img src="{{ url_for('static', filename='images/part2.png') }}" alt="第二章：卫冕之路" class="championship-photo">
+                <div class="photo-overlay">
+                    <h3>卫冕之路</h3>
+                </div>
+            </div>
+
+            <!-- 常规赛预测部分 -->
+            <div class="row fade-in mb-5">
+                <div class="col-12 position-relative">
+                    <div class="story-note side-left fade-in" data-note="prediction">
+                        <h4>数据模拟分析</h4>
+                        <p>通过对19-20赛季数据的分析，我们模拟了这支湖人队在新赛季的表现。让我们看看数据会告诉我们什么。</p>
+                    </div>
+                    <div class="stats-card">
+                        <h4>20-21赛季常规赛预测</h4>
+                        <!-- 图例控制 -->
+                        <div class="legend-container mb-3">
+                            <div class="btn-group">
+                                <button class="btn btn-outline-primary active" data-view="both">全部显示</button>
+                                <button class="btn btn-outline-primary" data-view="actual">实际数据</button>
+                                <button class="btn btn-outline-primary" data-view="prediction">模拟数据</button>
+                            </div>
+                        </div>
+                        <!-- 排序控制 -->
+                        <div class="sort-controls mb-3">
+                            <div class="btn-group">
+                                <button class="btn btn-outline-primary active" data-sort="rank">排名</button>
+                                <button class="btn btn-outline-primary" data-sort="winPct">胜率</button>
+                                <button class="btn btn-outline-primary" data-sort="wins">胜场</button>
+                                <button class="btn btn-outline-primary" data-sort="losses">负场</button>
+                            </div>
+                        </div>
+                        <div id="regularPredictionChart" class="chart-container"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 球队数据分析 -->
+            <div class="row fade-in mb-5">
+                <div class="col-12 position-relative">
+                    <div class="story-note side-right fade-in" data-note="analysis">
+                        <h4>深入数据背后</h4>
+                        <p>点击每支球队可以查看其详细数据分析，了解各支球队的优势和特点，以及与湖人队的实力对比。</p>
+                    </div>
+                    <div class="stats-card">
+                        <h4>20-21赛季球队数据分析</h4>
+                        <div class="description text-center mb-3">
+                            点击球队可查看详细数据
+                        </div>
+                        <div id="teamPowerAnalysis" class="chart-container" style="height: 600px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 季后赛预测 -->
+            <div class="row fade-in">
+                <div class="col-12 position-relative">
+                    <div class="story-note side-left fade-in" data-note="playoff-prediction">
+                        <h4>王朝的延续之路</h4>
+                        <p>基于模拟数据，我们预测了湖人队在20-21赛季季后赛的征程。这支球队有实力创造新的传奇。</p>
+                    </div>
+                    <div class="stats-card">
+                        <h4>20-21赛季季后赛预测</h4>
+                        <div class="playoff-container">
+                            <img src="static/images/2021_playoff.png" alt="20-21赛季季后赛预测图" class="playoff-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第三章：总结与展望 -->
+    <section id="chapter-three" class="chapter-three">
+        <div class="container">
+            <div class="chapter-header">
+                <h2 class="chapter-title fade-in">第三章：王朝的思考</h2>
+        </div>
+
+        <div class="row fade-in">
+            <div class="col-12">
+                <div class="summary-card">
+                    <!-- 标题注释 -->
+                    <div class="story-note center fade-in" data-note="history">
+                        <h4>历史的选择</h4>
+                        <p>2020年的总冠军是湖人队实力的证明，也是他们17冠传奇的延续。通过数据分析，我们看到了一支真正的冠军球队应该具备的品质：强大的整体实力、出色的防守体系、合理的战术安排。</p>
+                    </div>
+
+                    <!-- 数据分析注释 -->
+                    <div class="story-note center fade-in" data-note="data">
+                        <h4>数据之外</h4>
+                        <p>数据可以告诉我们很多故事，但篮球比赛永远不只是冰冷的数字。团队精神、意志品质、历史传承，这些都是构建王朝的重要元素。我们通过数据窥探到了一个可能的未来，但真正的篮球故事永远发生在球场之上。</p>
+                    </div>
+
+                    <!-- 未来展望注释 -->
+                    <div class="story-note center fade-in" data-note="future">
+                        <h4>未来的期待</h4>
+                        <p>历史总会给我们留下遗憾和想象的空间。这个"如果"的故事，让我们看到了另一种可能。在现实中，湖人队走上了不同的道路，但紫金传统永远不变，期待下一个王朝的到来。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- JavaScript引入 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <!-- 添加注释显示控制脚本 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 监听滚动事件来显示注释
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.5,
+                rootMargin: '0px 0px -100px 0px'
+            });
+
+            // 观察所有注释元素
+            const notes = document.querySelectorAll('.story-note');
+            notes.forEach(note => observer.observe(note));
+
+            // 优化滚动性能
+            let scrollTimeout;
+            window.addEventListener('scroll', () => {
+                if (scrollTimeout) {
+                    window.cancelAnimationFrame(scrollTimeout);
+                }
+                scrollTimeout = window.requestAnimationFrame(() => {
+                    const scrolled = window.scrollY;
+                    // 可以添加其他滚动相关的动画效果
+                });
+            });
+        });
+    </script>
+</body>
+</html>

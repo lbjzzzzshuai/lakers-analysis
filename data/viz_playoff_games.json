@@ -1,0 +1,706 @@
+[
+  {
+    "Round": "First Round",
+    "Game_Number": 1,
+    "Home_Team": "Phoenix Suns",
+    "Away_Team": "New Orleans Pelicans",
+    "Winner": "New Orleans Pelicans",
+    "Series_Score": "'0-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 2,
+    "Home_Team": "New Orleans Pelicans",
+    "Away_Team": "Phoenix Suns",
+    "Winner": "Phoenix Suns",
+    "Series_Score": "'1-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 3,
+    "Home_Team": "Phoenix Suns",
+    "Away_Team": "New Orleans Pelicans",
+    "Winner": "Phoenix Suns",
+    "Series_Score": "'2-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 4,
+    "Home_Team": "New Orleans Pelicans",
+    "Away_Team": "Phoenix Suns",
+    "Winner": "New Orleans Pelicans",
+    "Series_Score": "'2-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 5,
+    "Home_Team": "Phoenix Suns",
+    "Away_Team": "New Orleans Pelicans",
+    "Winner": "Phoenix Suns",
+    "Series_Score": "'3-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 6,
+    "Home_Team": "New Orleans Pelicans",
+    "Away_Team": "Phoenix Suns",
+    "Winner": "New Orleans Pelicans",
+    "Series_Score": "'3-3"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 7,
+    "Home_Team": "Phoenix Suns",
+    "Away_Team": "New Orleans Pelicans",
+    "Winner": "New Orleans Pelicans",
+    "Series_Score": "'3-4"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 1,
+    "Home_Team": "Utah Jazz",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Utah Jazz",
+    "Series_Score": "'1-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 2,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "Utah Jazz",
+    "Winner": "Utah Jazz",
+    "Series_Score": "'2-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 3,
+    "Home_Team": "Utah Jazz",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'2-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 4,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "Utah Jazz",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'2-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 5,
+    "Home_Team": "Utah Jazz",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'2-3"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 6,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "Utah Jazz",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'2-4"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 1,
+    "Home_Team": "Denver Nuggets",
+    "Away_Team": "Dallas Mavericks",
+    "Winner": "Denver Nuggets",
+    "Series_Score": "'1-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 2,
+    "Home_Team": "Dallas Mavericks",
+    "Away_Team": "Denver Nuggets",
+    "Winner": "Dallas Mavericks",
+    "Series_Score": "'1-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 3,
+    "Home_Team": "Denver Nuggets",
+    "Away_Team": "Dallas Mavericks",
+    "Winner": "Dallas Mavericks",
+    "Series_Score": "'1-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 4,
+    "Home_Team": "Dallas Mavericks",
+    "Away_Team": "Denver Nuggets",
+    "Winner": "Denver Nuggets",
+    "Series_Score": "'2-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 5,
+    "Home_Team": "Denver Nuggets",
+    "Away_Team": "Dallas Mavericks",
+    "Winner": "Denver Nuggets",
+    "Series_Score": "'3-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 6,
+    "Home_Team": "Dallas Mavericks",
+    "Away_Team": "Denver Nuggets",
+    "Winner": "Dallas Mavericks",
+    "Series_Score": "'3-3"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 7,
+    "Home_Team": "Denver Nuggets",
+    "Away_Team": "Dallas Mavericks",
+    "Winner": "Denver Nuggets",
+    "Series_Score": "'4-3"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 1,
+    "Home_Team": "Los Angeles Lakers",
+    "Away_Team": "Golden State Warriors",
+    "Winner": "Los Angeles Lakers",
+    "Series_Score": "'1-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 2,
+    "Home_Team": "Golden State Warriors",
+    "Away_Team": "Los Angeles Lakers",
+    "Winner": "Los Angeles Lakers",
+    "Series_Score": "'2-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 3,
+    "Home_Team": "Los Angeles Lakers",
+    "Away_Team": "Golden State Warriors",
+    "Winner": "Los Angeles Lakers",
+    "Series_Score": "'3-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 4,
+    "Home_Team": "Golden State Warriors",
+    "Away_Team": "Los Angeles Lakers",
+    "Winner": "Los Angeles Lakers",
+    "Series_Score": "'4-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 1,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Washington Wizards",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'1-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 2,
+    "Home_Team": "Washington Wizards",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Washington Wizards",
+    "Series_Score": "'1-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 3,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Washington Wizards",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'2-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 4,
+    "Home_Team": "Washington Wizards",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Washington Wizards",
+    "Series_Score": "'2-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 5,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Washington Wizards",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'3-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 6,
+    "Home_Team": "Washington Wizards",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'4-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 1,
+    "Home_Team": "Boston Celtics",
+    "Away_Team": "Atlanta Hawks",
+    "Winner": "Atlanta Hawks",
+    "Series_Score": "'0-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 2,
+    "Home_Team": "Atlanta Hawks",
+    "Away_Team": "Boston Celtics",
+    "Winner": "Boston Celtics",
+    "Series_Score": "'1-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 3,
+    "Home_Team": "Boston Celtics",
+    "Away_Team": "Atlanta Hawks",
+    "Winner": "Atlanta Hawks",
+    "Series_Score": "'1-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 4,
+    "Home_Team": "Atlanta Hawks",
+    "Away_Team": "Boston Celtics",
+    "Winner": "Boston Celtics",
+    "Series_Score": "'2-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 5,
+    "Home_Team": "Boston Celtics",
+    "Away_Team": "Atlanta Hawks",
+    "Winner": "Atlanta Hawks",
+    "Series_Score": "'2-3"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 6,
+    "Home_Team": "Atlanta Hawks",
+    "Away_Team": "Boston Celtics",
+    "Winner": "Boston Celtics",
+    "Series_Score": "'3-3"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 7,
+    "Home_Team": "Boston Celtics",
+    "Away_Team": "Atlanta Hawks",
+    "Winner": "Atlanta Hawks",
+    "Series_Score": "'3-4"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 1,
+    "Home_Team": "Indiana Pacers",
+    "Away_Team": "Toronto Raptors",
+    "Winner": "Toronto Raptors",
+    "Series_Score": "'0-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 2,
+    "Home_Team": "Toronto Raptors",
+    "Away_Team": "Indiana Pacers",
+    "Winner": "Toronto Raptors",
+    "Series_Score": "'0-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 3,
+    "Home_Team": "Indiana Pacers",
+    "Away_Team": "Toronto Raptors",
+    "Winner": "Indiana Pacers",
+    "Series_Score": "'1-2"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 4,
+    "Home_Team": "Toronto Raptors",
+    "Away_Team": "Indiana Pacers",
+    "Winner": "Toronto Raptors",
+    "Series_Score": "'1-3"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 5,
+    "Home_Team": "Indiana Pacers",
+    "Away_Team": "Toronto Raptors",
+    "Winner": "Indiana Pacers",
+    "Series_Score": "'2-3"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 6,
+    "Home_Team": "Toronto Raptors",
+    "Away_Team": "Indiana Pacers",
+    "Winner": "Indiana Pacers",
+    "Series_Score": "'3-3"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 7,
+    "Home_Team": "Indiana Pacers",
+    "Away_Team": "Toronto Raptors",
+    "Winner": "Toronto Raptors",
+    "Series_Score": "'3-4"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 1,
+    "Home_Team": "Brooklyn Nets",
+    "Away_Team": "Milwaukee Bucks",
+    "Winner": "Brooklyn Nets",
+    "Series_Score": "'1-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 2,
+    "Home_Team": "Milwaukee Bucks",
+    "Away_Team": "Brooklyn Nets",
+    "Winner": "Brooklyn Nets",
+    "Series_Score": "'2-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 3,
+    "Home_Team": "Brooklyn Nets",
+    "Away_Team": "Milwaukee Bucks",
+    "Winner": "Brooklyn Nets",
+    "Series_Score": "'3-0"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 4,
+    "Home_Team": "Milwaukee Bucks",
+    "Away_Team": "Brooklyn Nets",
+    "Winner": "Milwaukee Bucks",
+    "Series_Score": "'3-1"
+  },
+  {
+    "Round": "First Round",
+    "Game_Number": 5,
+    "Home_Team": "Brooklyn Nets",
+    "Away_Team": "Milwaukee Bucks",
+    "Winner": "Brooklyn Nets",
+    "Series_Score": "'4-1"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 1,
+    "Home_Team": "New Orleans Pelicans",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'0-1"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 2,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "New Orleans Pelicans",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'0-2"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 3,
+    "Home_Team": "New Orleans Pelicans",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'0-3"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 4,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "New Orleans Pelicans",
+    "Winner": "New Orleans Pelicans",
+    "Series_Score": "'1-3"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 5,
+    "Home_Team": "New Orleans Pelicans",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "New Orleans Pelicans",
+    "Series_Score": "'2-3"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 6,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "New Orleans Pelicans",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'2-4"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 1,
+    "Home_Team": "Denver Nuggets",
+    "Away_Team": "Los Angeles Lakers",
+    "Winner": "Los Angeles Lakers",
+    "Series_Score": "'0-1"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 2,
+    "Home_Team": "Los Angeles Lakers",
+    "Away_Team": "Denver Nuggets",
+    "Winner": "Denver Nuggets",
+    "Series_Score": "'1-1"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 3,
+    "Home_Team": "Denver Nuggets",
+    "Away_Team": "Los Angeles Lakers",
+    "Winner": "Denver Nuggets",
+    "Series_Score": "'2-1"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 4,
+    "Home_Team": "Los Angeles Lakers",
+    "Away_Team": "Denver Nuggets",
+    "Winner": "Los Angeles Lakers",
+    "Series_Score": "'2-2"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 5,
+    "Home_Team": "Denver Nuggets",
+    "Away_Team": "Los Angeles Lakers",
+    "Winner": "Denver Nuggets",
+    "Series_Score": "'3-2"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 6,
+    "Home_Team": "Los Angeles Lakers",
+    "Away_Team": "Denver Nuggets",
+    "Winner": "Denver Nuggets",
+    "Series_Score": "'4-2"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 1,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Atlanta Hawks",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'1-0"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 2,
+    "Home_Team": "Atlanta Hawks",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Atlanta Hawks",
+    "Series_Score": "'1-1"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 3,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Atlanta Hawks",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'2-1"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 4,
+    "Home_Team": "Atlanta Hawks",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Atlanta Hawks",
+    "Series_Score": "'2-2"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 5,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Atlanta Hawks",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'3-2"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 6,
+    "Home_Team": "Atlanta Hawks",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'4-2"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 1,
+    "Home_Team": "Toronto Raptors",
+    "Away_Team": "Brooklyn Nets",
+    "Winner": "Toronto Raptors",
+    "Series_Score": "'1-0"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 2,
+    "Home_Team": "Brooklyn Nets",
+    "Away_Team": "Toronto Raptors",
+    "Winner": "Toronto Raptors",
+    "Series_Score": "'2-0"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 3,
+    "Home_Team": "Toronto Raptors",
+    "Away_Team": "Brooklyn Nets",
+    "Winner": "Toronto Raptors",
+    "Series_Score": "'3-0"
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Game_Number": 4,
+    "Home_Team": "Brooklyn Nets",
+    "Away_Team": "Toronto Raptors",
+    "Winner": "Toronto Raptors",
+    "Series_Score": "'4-0"
+  },
+  {
+    "Round": "Conference Finals",
+    "Game_Number": 1,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "Denver Nuggets",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'1-0"
+  },
+  {
+    "Round": "Conference Finals",
+    "Game_Number": 2,
+    "Home_Team": "Denver Nuggets",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Denver Nuggets",
+    "Series_Score": "'1-1"
+  },
+  {
+    "Round": "Conference Finals",
+    "Game_Number": 3,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "Denver Nuggets",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'2-1"
+  },
+  {
+    "Round": "Conference Finals",
+    "Game_Number": 4,
+    "Home_Team": "Denver Nuggets",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'3-1"
+  },
+  {
+    "Round": "Conference Finals",
+    "Game_Number": 5,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "Denver Nuggets",
+    "Winner": "Denver Nuggets",
+    "Series_Score": "'3-2"
+  },
+  {
+    "Round": "Conference Finals",
+    "Game_Number": 6,
+    "Home_Team": "Denver Nuggets",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'4-2"
+  },
+  {
+    "Round": "Conference Finals",
+    "Game_Number": 1,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Toronto Raptors",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'1-0"
+  },
+  {
+    "Round": "Conference Finals",
+    "Game_Number": 2,
+    "Home_Team": "Toronto Raptors",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'2-0"
+  },
+  {
+    "Round": "Conference Finals",
+    "Game_Number": 3,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Toronto Raptors",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'3-0"
+  },
+  {
+    "Round": "Conference Finals",
+    "Game_Number": 4,
+    "Home_Team": "Toronto Raptors",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'4-0"
+  },
+  {
+    "Round": "NBA Finals",
+    "Game_Number": 1,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'0-1"
+  },
+  {
+    "Round": "NBA Finals",
+    "Game_Number": 2,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'0-2"
+  },
+  {
+    "Round": "NBA Finals",
+    "Game_Number": 3,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'1-2"
+  },
+  {
+    "Round": "NBA Finals",
+    "Game_Number": 4,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'2-2"
+  },
+  {
+    "Round": "NBA Finals",
+    "Game_Number": 5,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'3-2"
+  },
+  {
+    "Round": "NBA Finals",
+    "Game_Number": 6,
+    "Home_Team": "Philadelphia 76ers",
+    "Away_Team": "Los Angeles Clippers",
+    "Winner": "Philadelphia 76ers",
+    "Series_Score": "'3-3"
+  },
+  {
+    "Round": "NBA Finals",
+    "Game_Number": 7,
+    "Home_Team": "Los Angeles Clippers",
+    "Away_Team": "Philadelphia 76ers",
+    "Winner": "Los Angeles Clippers",
+    "Series_Score": "'4-3"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "Round": "First Round",
+    "Team1": "Phoenix Suns",
+    "Team2": "New Orleans Pelicans",
+    "Winner": "New Orleans Pelicans",
+    "Loser": "Phoenix Suns",
+    "Series_Score": "'3-4",
+    "Games_Played": 7
+  },
+  {
+    "Round": "First Round",
+    "Team1": "Utah Jazz",
+    "Team2": "Los Angeles Clippers",
+    "Winner": "Los Angeles Clippers",
+    "Loser": "Utah Jazz",
+    "Series_Score": "'2-4",
+    "Games_Played": 6
+  },
+  {
+    "Round": "First Round",
+    "Team1": "Denver Nuggets",
+    "Team2": "Dallas Mavericks",
+    "Winner": "Denver Nuggets",
+    "Loser": "Dallas Mavericks",
+    "Series_Score": "'4-3",
+    "Games_Played": 7
+  },
+  {
+    "Round": "First Round",
+    "Team1": "Los Angeles Lakers",
+    "Team2": "Golden State Warriors",
+    "Winner": "Los Angeles Lakers",
+    "Loser": "Golden State Warriors",
+    "Series_Score": "'4-0",
+    "Games_Played": 4
+  },
+  {
+    "Round": "First Round",
+    "Team1": "Philadelphia 76ers",
+    "Team2": "Washington Wizards",
+    "Winner": "Philadelphia 76ers",
+    "Loser": "Washington Wizards",
+    "Series_Score": "'4-2",
+    "Games_Played": 6
+  },
+  {
+    "Round": "First Round",
+    "Team1": "Boston Celtics",
+    "Team2": "Atlanta Hawks",
+    "Winner": "Atlanta Hawks",
+    "Loser": "Boston Celtics",
+    "Series_Score": "'3-4",
+    "Games_Played": 7
+  },
+  {
+    "Round": "First Round",
+    "Team1": "Indiana Pacers",
+    "Team2": "Toronto Raptors",
+    "Winner": "Toronto Raptors",
+    "Loser": "Indiana Pacers",
+    "Series_Score": "'3-4",
+    "Games_Played": 7
+  },
+  {
+    "Round": "First Round",
+    "Team1": "Brooklyn Nets",
+    "Team2": "Milwaukee Bucks",
+    "Winner": "Brooklyn Nets",
+    "Loser": "Milwaukee Bucks",
+    "Series_Score": "'4-1",
+    "Games_Played": 5
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Team1": "New Orleans Pelicans",
+    "Team2": "Los Angeles Clippers",
+    "Winner": "Los Angeles Clippers",
+    "Loser": "New Orleans Pelicans",
+    "Series_Score": "'2-4",
+    "Games_Played": 6
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Team1": "Denver Nuggets",
+    "Team2": "Los Angeles Lakers",
+    "Winner": "Denver Nuggets",
+    "Loser": "Los Angeles Lakers",
+    "Series_Score": "'4-2",
+    "Games_Played": 6
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Team1": "Philadelphia 76ers",
+    "Team2": "Atlanta Hawks",
+    "Winner": "Philadelphia 76ers",
+    "Loser": "Atlanta Hawks",
+    "Series_Score": "'4-2",
+    "Games_Played": 6
+  },
+  {
+    "Round": "Conference Semifinals",
+    "Team1": "Toronto Raptors",
+    "Team2": "Brooklyn Nets",
+    "Winner": "Toronto Raptors",
+    "Loser": "Brooklyn Nets",
+    "Series_Score": "'4-0",
+    "Games_Played": 4
+  },
+  {
+    "Round": "Conference Finals",
+    "Team1": "Los Angeles Clippers",
+    "Team2": "Denver Nuggets",
+    "Winner": "Los Angeles Clippers",
+    "Loser": "Denver Nuggets",
+    "Series_Score": "'4-2",
+    "Games_Played": 6
+  },
+  {
+    "Round": "Conference Finals",
+    "Team1": "Philadelphia 76ers",
+    "Team2": "Toronto Raptors",
+    "Winner": "Philadelphia 76ers",
+    "Loser": "Toronto Raptors",
+    "Series_Score": "'4-0",
+    "Games_Played": 4
+  },
+  {
+    "Round": "NBA Finals",
+    "Team1": "Los Angeles Clippers",
+    "Team2": "Philadelphia 76ers",
+    "Winner": "Los Angeles Clippers",
+    "Loser": "Philadelphia 76ers",
+    "Series_Score": "'4-3",
+    "Games_Played": 7
+  }
+]

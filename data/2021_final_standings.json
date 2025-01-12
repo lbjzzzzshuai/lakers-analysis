@@ -1,0 +1,212 @@
+[
+  {
+    "Unnamed: 0": "Phoenix Suns",
+    "W": 53,
+    "L": 19,
+    "Team": "Phoenix Suns",
+    "WinPct": 0.7361111111111112
+  },
+  {
+    "Unnamed: 0": "Philadelphia 76ers",
+    "W": 52,
+    "L": 20,
+    "Team": "Philadelphia 76ers",
+    "WinPct": 0.7222222222222222
+  },
+  {
+    "Unnamed: 0": "Los Angeles Lakers",
+    "W": 51,
+    "L": 22,
+    "Team": "Los Angeles Lakers",
+    "WinPct": 0.6986301369863014
+  },
+  {
+    "Unnamed: 0": "Denver Nuggets",
+    "W": 48,
+    "L": 24,
+    "Team": "Denver Nuggets",
+    "WinPct": 0.6666666666666666
+  },
+  {
+    "Unnamed: 0": "Utah Jazz",
+    "W": 48,
+    "L": 24,
+    "Team": "Utah Jazz",
+    "WinPct": 0.6666666666666666
+  },
+  {
+    "Unnamed: 0": "Brooklyn Nets",
+    "W": 47,
+    "L": 25,
+    "Team": "Brooklyn Nets",
+    "WinPct": 0.6527777777777778
+  },
+  {
+    "Unnamed: 0": "Indiana Pacers",
+    "W": 48,
+    "L": 26,
+    "Team": "Indiana Pacers",
+    "WinPct": 0.6486486486486487
+  },
+  {
+    "Unnamed: 0": "Los Angeles Clippers",
+    "W": 45,
+    "L": 27,
+    "Team": "Los Angeles Clippers",
+    "WinPct": 0.625
+  },
+  {
+    "Unnamed: 0": "Boston Celtics",
+    "W": 41,
+    "L": 32,
+    "Team": "Boston Celtics",
+    "WinPct": 0.5616438356164384
+  },
+  {
+    "Unnamed: 0": "Dallas Mavericks",
+    "W": 40,
+    "L": 32,
+    "Team": "Dallas Mavericks",
+    "WinPct": 0.5555555555555556
+  },
+  {
+    "Unnamed: 0": "Toronto Raptors",
+    "W": 38,
+    "L": 34,
+    "Team": "Toronto Raptors",
+    "WinPct": 0.5277777777777778
+  },
+  {
+    "Unnamed: 0": "Atlanta Hawks",
+    "W": 38,
+    "L": 34,
+    "Team": "Atlanta Hawks",
+    "WinPct": 0.5277777777777778
+  },
+  {
+    "Unnamed: 0": "Golden State Warriors",
+    "W": 39,
+    "L": 35,
+    "Team": "Golden State Warriors",
+    "WinPct": 0.527027027027027
+  },
+  {
+    "Unnamed: 0": "Milwaukee Bucks",
+    "W": 37,
+    "L": 35,
+    "Team": "Milwaukee Bucks",
+    "WinPct": 0.5138888888888888
+  },
+  {
+    "Unnamed: 0": "New Orleans Pelicans",
+    "W": 36,
+    "L": 36,
+    "Team": "New Orleans Pelicans",
+    "WinPct": 0.5
+  },
+  {
+    "Unnamed: 0": "Washington Wizards",
+    "W": 36,
+    "L": 38,
+    "Team": "Washington Wizards",
+    "WinPct": 0.4864864864864865
+  },
+  {
+    "Unnamed: 0": "Miami Heat",
+    "W": 35,
+    "L": 37,
+    "Team": "Miami Heat",
+    "WinPct": 0.4861111111111111
+  },
+  {
+    "Unnamed: 0": "Sacramento Kings",
+    "W": 35,
+    "L": 37,
+    "Team": "Sacramento Kings",
+    "WinPct": 0.4861111111111111
+  },
+  {
+    "Unnamed: 0": "San Antonio Spurs",
+    "W": 35,
+    "L": 38,
+    "Team": "San Antonio Spurs",
+    "WinPct": 0.4794520547945205
+  },
+  {
+    "Unnamed: 0": "Memphis Grizzlies",
+    "W": 34,
+    "L": 40,
+    "Team": "Memphis Grizzlies",
+    "WinPct": 0.4594594594594595
+  },
+  {
+    "Unnamed: 0": "Portland Trail Blazers",
+    "W": 33,
+    "L": 39,
+    "Team": "Portland Trail Blazers",
+    "WinPct": 0.4583333333333333
+  },
+  {
+    "Unnamed: 0": "Chicago Bulls",
+    "W": 33,
+    "L": 39,
+    "Team": "Chicago Bulls",
+    "WinPct": 0.4583333333333333
+  },
+  {
+    "Unnamed: 0": "New York Knicks",
+    "W": 33,
+    "L": 39,
+    "Team": "New York Knicks",
+    "WinPct": 0.4583333333333333
+  },
+  {
+    "Unnamed: 0": "Minnesota Timberwolves",
+    "W": 27,
+    "L": 45,
+    "Team": "Minnesota Timberwolves",
+    "WinPct": 0.375
+  },
+  {
+    "Unnamed: 0": "Cleveland Cavaliers",
+    "W": 27,
+    "L": 45,
+    "Team": "Cleveland Cavaliers",
+    "WinPct": 0.375
+  },
+  {
+    "Unnamed: 0": "Detroit Pistons",
+    "W": 27,
+    "L": 45,
+    "Team": "Detroit Pistons",
+    "WinPct": 0.375
+  },
+  {
+    "Unnamed: 0": "Charlotte Hornets",
+    "W": 27,
+    "L": 46,
+    "Team": "Charlotte Hornets",
+    "WinPct": 0.3698630136986301
+  },
+  {
+    "Unnamed: 0": "Houston Rockets",
+    "W": 21,
+    "L": 51,
+    "Team": "Houston Rockets",
+    "WinPct": 0.2916666666666667
+  },
+  {
+    "Unnamed: 0": "Oklahoma City Thunder",
+    "W": 14,
+    "L": 58,
+    "Team": "Oklahoma City Thunder",
+    "WinPct": 0.1944444444444444
+  },
+  {
+    "Unnamed: 0": "Orlando Magic",
+    "W": 8,
+    "L": 64,
+    "Team": "Orlando Magic",
+    "WinPct": 0.1111111111111111
+  }
+]

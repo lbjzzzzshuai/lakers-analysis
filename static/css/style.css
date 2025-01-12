@@ -1,0 +1,844 @@
+/* static/css/style.css */
+:root {
+    --lakers-purple: #552583;
+    --lakers-gold: #FDB927;
+}
+
+/* 全局样式 */
+body {
+    background-color: #111;
+    color: white;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+
+/* 开场部分 */
+.hero-section {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+    filter: blur(5px);
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        rgba(85, 37, 131, 0.9),
+        rgba(0, 0, 0, 0.8)
+    );
+    z-index: 2;
+}
+
+.hero-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+
+.hero-logo img {
+    height: 80px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.hero-logo img:hover {
+    transform: scale(1.05);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    color: var(--lakers-gold);
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content .subtitle {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.explore-btn {
+    background-color: var(--lakers-gold);
+    color: var(--lakers-purple);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--lakers-gold);
+}
+
+/* 第一章样式 */
+.chapter-one {
+    min-height: 100vh;
+    background: linear-gradient(var(--lakers-purple), #111);
+    padding: 80px 0;
+}
+
+.chapter-one h2 {
+    color: var(--lakers-gold);
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* 冠军照片样式 */
+.championship-container {
+    position: relative;
+    margin: 40px 0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(253, 185, 39, 0.3);
+}
+
+.championship-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.championship-container:hover .championship-photo {
+    transform: scale(1.02);
+}
+
+.photo-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    padding: 20px;
+}
+
+.photo-overlay h3 {
+    color: var(--lakers-gold);
+    text-align: center;
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* 故事文本样式 */
+.story-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 2rem 0;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* 数据分析部分样式 */
+.analysis-section {
+    padding: 2rem 0;
+}
+
+.stats-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(253, 185, 39, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(253, 185, 39, 0.2);
+}
+
+.stats-card h4 {
+    color: var(--lakers-gold);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.chart-container {
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .hero-content .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .hero-logo img {
+        height: 60px;
+    }
+
+    .chapter-one {
+        padding: 60px 0;
+    }
+
+    .chapter-one h2 {
+        font-size: 2.5rem;
+    }
+
+    .stats-card {
+        margin-bottom: 1rem;
+    }
+
+    .chart-container {
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-logo img {
+        height: 50px;
+    }
+
+    .explore-btn {
+        padding: 0.8rem 1.6rem;
+        font-size: 1rem;
+    }
+}
+
+/* 动画效果 */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--lakers-gold);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--lakers-purple);
+}
+/* 导航栏动画 */
+.navbar {
+    transition: all 0.3s ease;
+    background: linear-gradient(rgba(85, 37, 131, 0.9), rgba(0, 0, 0, 0.8));
+}
+
+.navbar-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: rgba(85, 37, 131, 0.95);
+}
+
+.nav-logo {
+    height: 40px;
+    transition: all 0.3s ease;
+}
+
+.navbar-shrink .nav-logo {
+    height: 35px;
+}
+
+/* 图表交互样式 */
+.team-details {
+    position: fixed;
+    right: -300px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    background: rgba(85, 37, 131, 0.95);
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.team-details.active {
+    right: 0;
+}
+
+/* 加载动画 */
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #FDB927;
+    border-top: 5px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 图表工具提示样式 */
+.tooltip {
+    background: rgba(85, 37, 131, 0.95);
+    border: 1px solid #FDB927;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+    .team-details {
+        width: 100%;
+        right: -100%;
+        border-radius: 0;
+    }
+
+    .chart-container {
+        height: 250px;
+    }
+}
+
+/* 动画类 */
+.fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scale-in {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scale-in.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+.controls-container {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.controls-container .btn-group {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.controls-container .btn {
+    color: #fff;
+    border-color: #FDB927;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.controls-container .btn:hover {
+    background-color: #552583;
+    border-color: #FDB927;
+}
+
+.controls-container .btn.active {
+    background-color: #FDB927;
+    border-color: #FDB927;
+    color: #552583;
+}
+.stats-card {
+    background: rgba(20, 20, 40, 0.8);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    overflow-x: auto;
+}
+
+.stats-card #playoff1920Chart {
+    height: 900px !important;
+    width: 100%;
+    min-width: 1600px;
+}
+
+/* 自定义滚动条 */
+.stats-card::-webkit-scrollbar {
+    height: 8px;
+}
+
+.stats-card::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.stats-card::-webkit-scrollbar-thumb {
+    background: #FDB927;
+    border-radius: 4px;
+}
+
+.stats-card::-webkit-scrollbar-thumb:hover {
+    background: #552583;
+}
+
+/* playoff图表容器特殊样式 */
+.playoff-container {
+    position: relative;
+    padding-top: 20px;
+}
+
+.playoff-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #FF4B4B 0%, #4B77FF 100%);
+    opacity: 0.3;
+}
+
+/* 季后赛标题样式 */
+.playoff-title {
+    color: #FDB927;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-shadow: 0 0 10px rgba(253, 185, 39, 0.3);
+}
+
+.playoff-container {
+    height: 900px !important;
+    width: 100%;
+    min-width: 1200px;
+    background: rgba(20, 20, 40, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    overflow-x: auto;
+}
+
+#playoff1920Chart {
+    height: 100% !important;
+    width: 100%;
+}
+#regularPredictionChart {
+    min-height: 800px;
+    width: 100%;
+}
+
+.chart-container {
+    min-height: 300px;
+    width: 100%;
+}
+.legend-container {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.legend-container .btn-group {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.legend-container .btn {
+    color: #fff;
+    border-color: #FDB927;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+.legend-container .btn:hover {
+    background-color: #552583;
+    border-color: #FDB927;
+}
+
+.legend-container .btn.active {
+    background-color: #FDB927;
+    border-color: #FDB927;
+    color: #552583;
+}
+/* Ensure proper spacing */
+.stats-card h4 {
+    margin-bottom: 2rem;
+}
+
+/* Add smooth transitions */
+#playoff1920Chart,
+#playoff2021Chart {
+    transition: all 0.3s ease;
+}
+.playoff-container {
+    position: relative;
+    height: 900px !important;
+    width: 100%;
+    min-width: 1200px;
+    background: rgba(20, 20, 40, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    overflow-x: auto;
+}
+
+/* 季后赛标题样式 */
+.playoff-title {
+    color: #FDB927;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-shadow: 0 0 10px rgba(253, 185, 39, 0.3);
+}
+.playoff-container {
+    position: relative;
+    width: 100%;
+    min-width: 800px;
+    background: rgba(20, 20, 40, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    overflow-x: auto;
+}
+
+.playoff-image {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.playoff-image:hover {
+    transform: scale(1.02);
+}
+
+/* 适配移动设备 */
+@media (max-width: 768px) {
+    .playoff-container {
+        min-width: 100%;
+        overflow-x: scroll;
+    }
+
+    .playoff-image {
+        width: 800px;
+        max-width: none;
+    }
+}
+.chapter-header {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.title-image-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.title-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.title-image:hover {
+    transform: scale(1.02);
+}
+.chapter-header {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.chapter-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FDB927;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+.description-container {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+}
+
+.analysis-text {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.analysis-note {
+    color: #FDB927;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.interaction-tip {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px;
+    background: rgba(253,185,39,0.1);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.radar-description {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.radar-description.d-none {
+    display: none;
+}
+.story-note {
+    position: absolute;
+    max-width: 300px;
+    background: rgba(85, 37, 131, 0.9);
+    border-left: 4px solid #FDB927;
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.5s ease;
+}
+
+.story-note.right {
+    right: -320px;
+    border-left: none;
+    border-right: 4px solid #FDB927;
+    border-radius: 8px 0 0 8px;
+    transform: translateX(20px);
+}
+
+.story-note.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.story-note h4 {
+    color: #FDB927;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+/* 第三章样式 */
+.chapter-three {
+    background: linear-gradient(#111, var(--lakers-purple));
+    padding: 80px 0;
+    min-height: 100vh;
+}
+
+.summary-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    border: 1px solid rgba(253, 185, 39, 0.2);
+}
+
+.story-note.center {
+    position: relative;
+    max-width: 800px;
+    margin: 2rem auto;
+    transform: none;
+    opacity: 1;
+    background: rgba(85, 37, 131, 0.6);
+    border-left: none;
+    border-bottom: 4px solid #FDB927;
+    text-align: center;
+}
+
+.story-note {
+    position: absolute;
+    max-width: 300px;
+    background: rgba(85, 37, 131, 0.9);
+    border-left: 4px solid #FDB927;
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.5s ease;
+}
+
+.story-note.right {
+    right: -320px;
+    border-left: none;
+    border-right: 4px solid #FDB927;
+    border-radius: 8px 0 0 8px;
+    transform: translateX(20px);
+}
+
+.story-note.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+/* 优化story-note样式 */
+.story-note {
+    position: absolute;
+    max-width: 300px;
+    background: rgba(85, 37, 131, 0.9);
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 10;
+}
+
+/* 左侧注释 */
+.story-note.side-left {
+    left: -320px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-right: 4px solid #FDB927;
+    border-radius: 8px 0 0 8px;
+}
+
+/* 右侧注释 */
+.story-note.side-right {
+    right: -320px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 4px solid #FDB927;
+    border-radius: 0 8px 8px 0;
+}
+
+/* 中央注释 */
+.story-note.center {
+    position: relative;
+    max-width: 800px;
+    margin: 2rem auto;
+    transform: none;
+    opacity: 1;
+    background: rgba(85, 37, 131, 0.6);
+    border-bottom: 4px solid #FDB927;
+    text-align: center;
+    left: auto;
+    right: auto;
+    border-radius: 8px;
+}
+
+/* 可见状态 */
+.story-note.visible {
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
+.story-note.center.visible {
+    transform: none;
+}
+
+/* 响应式调整 */
+@media (max-width: 1600px) {
+    .story-note.side-left {
+        left: -280px;
+    }
+    .story-note.side-right {
+        right: -280px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .story-note.side-left,
+    .story-note.side-right {
+        position: relative;
+        left: auto;
+        right: auto;
+        transform: none;
+        margin: 1rem 0;
+        max-width: 100%;
+        border: none;
+        border-left: 4px solid #FDB927;
+        border-radius: 0 8px 8px 0;
+    }
+}
